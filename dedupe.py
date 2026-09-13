@@ -3,10 +3,7 @@ import hashlib
 import sys
 
 def get_file_hash(filepath, block_size=65536):
-    """
-    قراءة الملف على أجزاء لتوليد الـ MD5 Hash
-    عشان ما نستهلكش الـ RAM مع الملفات الكبيرة
-    """
+
     hasher = hashlib.md5()
     try:
         with open(filepath, 'rb') as f:
@@ -19,9 +16,7 @@ def get_file_hash(filepath, block_size=65536):
         return None
 
 def find_duplicates(target_directory):
-    """
-    البحث عن الملفات المكررة بناءً على الـ Hash
-    """
+
     hashes = {}
     duplicates = []
     total_scanned = 0
