@@ -11,7 +11,7 @@ Unlike basic file cleaners that only check file names, this script reads the act
 - Interactive deletion prompt with safety default (No).
 
 ## Screenshot
-(Screenshot/run.jpeg)
+![running the project](Screenshot/run.jpeg)
 
 ## How to Run
 
