@@ -10,6 +10,9 @@ Unlike basic file cleaners that only check file names, this script reads the act
 - Memory-friendly chunked file reading (`64KB` blocks).
 - Interactive deletion prompt with safety default (No).
 
+## Screenshot
+(Screenshot/run.jpeg)
+
 ## How to Run
 
 1. Run the script:
